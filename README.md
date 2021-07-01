@@ -12,7 +12,7 @@
 ## Exercise 1
 
 ```
-function watchTurorialCallback(callback, errorCallback) {
+function watchTutorialCallback(callback, errorCallback) {
   let userLeft = false;
   let userWatchingLiveStream = true;
 
@@ -26,7 +26,7 @@ function watchTurorialCallback(callback, errorCallback) {
   }
 }
 
-watchTurorialCallback(
+watchTutorialCallback(
   (message) => {
     console.log(message);
   },
